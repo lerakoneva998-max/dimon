@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Дима vs Шахед (Roblox Style)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls-panel">
+        <label for="speedRange">Скорость Шахеда: <span id="speedValue">3</span></label>
+        <input type="range" id="speedRange" min="1" max="10" value="3">
+    </div>
+
+    <div class="game-container" id="gameContainer">
+        <div id="score">Счет: 0</div>
+        
+        <div id="dino">
+            <img src="dima.png" alt="Дима">
+        </div>
+
+        <div id="shahed">
+            <img src="shahed.png" alt="Шахед">
+        </div>
+
+        <div id="explosion">💥</div>
+    </div>
+
+    <!-- Джойстик в стиле Роблокса -->
+    <div id="joystick-zone">
+        <div id="joystick-base">
+            <div id="joystick-stick"></div>
+        </div>
+    </div>
+
+    <p class="hint">Управляй джойстиком слева на экране или клавишами WASD на ПК.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
